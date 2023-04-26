@@ -1,0 +1,154 @@
+
+
+
+<html>
+
+   <head>
+
+    <meta charset="UTF-8">
+    <title>Biografía</title>
+    <meta name="description"
+    content="Este es un ejemplo de página web, puesto como tarea en un diplomado
+    de la universidad en la que se describe una biografía"/>
+    <link rel="stylesheet" href="css/mi_estilo.css"/> 
+   </head>
+
+  <body>
+
+    <center><h1> Biografía</h1></center>
+    <center><img src="./images/m3.jpeg"
+      alt="foto_de_biografia"  height="300" ></center>
+
+
+  <div >
+<p class="descripcion"> 
+  John T. es ingeniero electrónico de la universidad del valle.
+  Y es procedente de la ciudad de Cali.
+  Desde que recibió clases de programación básica en la universidad ha cogido gusto por esta área.
+  También ha aprendido conceptos de marketing digital, llegandose a certificar en Google ads, conocimiento
+   que ha usado para prestar este tipo de servicios a algunos clientes.
+   Desde hace poco ha querido enfocar su tiempo en aprender conceptos de desarrollo web, lo cual
+   le permitiría combinar áreas como la ingeniería (específicamente conocimientos de programación)
+   con otras áreas como lo es el marketing digital, llegando así a proporcionar a futuro servicios aún más
+   profesionales a sus clientes.
+
+
+</p>
+
+<center><h2> Lista de platos favoritos</h2> </center>
+
+<div class="lista_container">
+ <ul class="lista">
+  <li>Arroz con pollo</li>
+  <li>Carne Asada</li>
+  <li>Pizza Hawaianna</li>
+ </ul>
+</div>
+
+  </div> 
+
+  <div class="enlace">
+<h2>Enlace a Red social:</h2>
+<a href="https://www.facebook.com/"  target="_blank">Red social Face</a>
+</div>
+
+<h2>  A continuación 3 formularios: </h2>
+
+<section class="formulario1"> 
+<h3> Formulario 1</h3>
+  <form action="Gracias.html" method="post"> 
+    <div>
+      <label for="name_">Nombre:</label>
+      <input type="text" id="name_" name="user_name">
+    </div>
+    <br>
+    <div>
+      <label for="mail_">Email:</label>
+      <input type="email" id="mail_" name="user_mail">
+    </div>
+    <br>
+    <div>    
+      <label for="mensaje_">Mensaje:</label>
+      <textarea id="mensaje_" name="user_message"></textarea>
+    </div>
+    <br>
+    <button type="submit">Envíar información</button>
+</form>
+</section>
+
+<section class="formulario2"> 
+  <h3> Formulario 2 </h3>
+    <form action="Gracias.html" method="post"> 
+      <div>
+        <label for="edad_">Edad:</label>
+        <input type="number" id="edad_" name="user_age">
+      </div>
+      <br>
+      <div>
+        <label for="fecha_">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_" name="user_date">
+      </div>
+      <br>
+      <div>    
+        <label for="color_">color favorito:</label>
+        <input type="color" id="color_" name="user_color">
+      </div>
+      <br>
+      <button type="submit">Envíar información</button>
+  
+  </form>
+  </section>
+
+  <section class="formulario3"> 
+    <h3> Formulario 3 </h3>
+      <form action="Gracias.html" method="post"> 
+        <div>
+          <label for="cine_">¿Qué tanto te gusta el cine?:</label>
+          <input type="range" id="cine_" name="user_cine" min="1" max="10">
+        </div>
+        <br>
+        <div>
+          Indica cual de los siguientes 3 hobbies te gusta más:
+          <br>
+          <label>
+              <input type="radio" name="hobbie_name" value="cine"> Cine
+          </label>
+          <label>
+              <input type="radio" name="hobbie_name" value="videojuegos"> Videojuegos
+          </label>
+          <label>
+              <input type="radio" name="hobbie_name" value="deporte"> Deporte
+          </label>
+        </div>
+        <br>
+        <div>    
+         Indica que tipo de deportes has practicado en tu vida:<br>
+          
+         <label for="box_1">Fútbol</label>
+         <input type="checkbox" id="box_1" value="futbol"> 
+         <br>
+
+          <label for="box_2">Baloncesto</label>
+        <input type="checkbox" id="box_2" value="baloncesto"> 
+        <br>
+
+        
+        <label for="box_3">Natación</label>
+        <input type="checkbox" id="box_3" value="Natacion"> 
+        <br>
+
+        </div>
+        <br>
+        <button type="submit">Envíar información</button>
+    
+    </form>
+    </section>
+
+    <section class="sonido"> 
+    <h2>  Preludio Canción instrumental: </h2>
+
+    <audio src="audio/Do.mp3" preload="none" controls></audio>
+  </section>
+  </body>
+
+</html>
